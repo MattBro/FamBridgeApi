@@ -17,6 +17,8 @@ namespace FamBridgeApi.Models
         public DbSet<Case> Cases { get; set; }
 
         public DbSet<User> Users { get; set; }
+
+        public DbSet<FamBridgeApi.Models.CaseToken> CaseToken { get; set; }
     }
 
 }

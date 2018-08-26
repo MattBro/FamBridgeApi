@@ -85,7 +85,7 @@ namespace FamBridgeApi.Controllers
 
         // POST: api/AuthenticateUser
         [HttpPost]
-        [Route("/AuthenticateUser")]
+        [Route("/api/Users/AuthenticateUser")]
         public async Task<IActionResult> AuthenticateUser(JObject jsonResult)
         {
             User requestUser = JsonConvert.DeserializeObject<User>(jsonResult.ToString());
