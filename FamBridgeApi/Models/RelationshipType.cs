@@ -8,6 +8,7 @@ namespace FamBridgeApi.Models
     public enum RelationshipType
     {
         FosterFamily,
-        BirthFamily
+        BirthFamily,
+        CaseWorker
     }
 }
